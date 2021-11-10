@@ -3,7 +3,7 @@ import Form from './Components/Form';
 
 function App() {
   const [members, setMembers] = useState([]);
-  const [values, setValues] = useState({name:'', emails:'', role:''});
+  const [values, setValues] = useState({name:'', email:'', role:''});
   // **Create state variables to hold team members 
   // and hold form values
   // Create update and submit functions 
